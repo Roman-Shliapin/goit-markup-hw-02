@@ -4,34 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEBSTUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header id="top">
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="#">Studio</a>
+    <header class="header" id="top">
+      <nav class="header-navigation">
+        <a href="./index.html" class="navigation-logo"
+          ><span class="navigation-logo-part-color">Web</span>Studio</a
+        >
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <a href="#" class="navigation-list-item-link">Studio</a>
           </li>
-          <li>
-            <a href="#">Portfolio</a>
+          <li class="navigation-list-item">
+            <a href="#" class="navigation-list-item-link">Portfolio</a>
           </li>
-          <li>
-            <a href="#">Contacts</a>
+          <li class="navigation-list-item">
+            <a href="#" class="navigation-list-item-link">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="header-adress">
+        <ul class="adress-list">
+          <li class="adress-list-item">
+            <a href="mailto:info@devstudio.com" class="address-list-item-mail"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="adress-list-item">
+            <a href="tel:+110001111111" class="address-list-item-tel"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
-      <section id="hero-banner">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero-banner" id="hero-banner">
+        <h1 class="hero-banner-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-banner-button">Order Service</button>
       </section>
       <section id="advantages">
         <h2>Our Advantages</h2>
@@ -108,6 +132,71 @@
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/bank-app.jpg"
+              alt="Illustration representing a banking app"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/payment.jpg"
+              alt=" Illustration representing a cashless payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/meditation.jpg"
+              alt="Illustration representing a meditation app"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/taxi.jpg"
+              alt="Illustration representing a taxi service"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/screen.jpg"
+              alt="Illustration of a mobile app screen"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/courses.jpg"
+              alt="Illustration representing a online courses"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
