@@ -59,22 +59,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-list-item-mail {
+.address-list-item-link {
   color: #434455;
 }
-.address-list-item-mail:hover {
+.address-list-item-link:hover {
   color: #404bbf;
 }
-.address-list-item-mail:focus {
-  color: #404bbf;
-}
-.address-list-item-tel {
-  color: #434455;
-}
-.address-list-item-tel:hover {
-  color: #404bbf;
-}
-.address-list-item-tel:focus {
+.address-list-item-link:focus {
   color: #404bbf;
 }
 /* Header end */
