@@ -175,13 +175,13 @@ ul {
   background-color: #2e2f42;
 }
 .footer-logo-part-color {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-logo {
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
