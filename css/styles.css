@@ -19,16 +19,16 @@ ul {
 .header-navigation {
 }
 .navigation-logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }
 .navigation-logo-part-color {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .navigation-list {
 }
@@ -40,6 +40,13 @@ ul {
   letter-spacing: 0.02em;
 }
 .navigation-list-item-link {
+  color: #2e2f42;
+}
+.navigation-list-item-link:hover {
+  color: #404bbf;
+}
+.navigation-list-item-link:focus {
+  color: #404bbf;
 }
 .header-adress {
   font-style: normal;
@@ -53,8 +60,22 @@ ul {
   letter-spacing: 0.02em;
 }
 .address-list-item-mail {
+  color: #434455;
+}
+.address-list-item-mail:hover {
+  color: #404bbf;
+}
+.address-list-item-mail:focus {
+  color: #404bbf;
 }
 .address-list-item-tel {
+  color: #434455;
+}
+.address-list-item-tel:hover {
+  color: #404bbf;
+}
+.address-list-item-tel:focus {
+  color: #404bbf;
 }
 /* Header end */
 
