@@ -75,8 +75,6 @@ ul {
 }
 .hero-banner-button {
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   background-color: #4d5ae5;
   color: #fff;
   cursor: pointer;
@@ -178,8 +176,6 @@ ul {
 /* Section footer start  */
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
 }
 .footer-logo-part-color {
   color: #4d5ae5;
