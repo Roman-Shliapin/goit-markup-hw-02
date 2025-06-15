@@ -105,7 +105,7 @@ ul {
 
 /* Section our team start */
 .team {
-  background-color: #fff;
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -117,6 +117,7 @@ ul {
   text-transform: capitalize;
 }
 .team-list {
+  background-color: #fff;
 }
 .team-list-item {
 }
